@@ -1,0 +1,6 @@
+framework module Pods_DemoRxTableView {
+  umbrella header "Pods-DemoRxTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

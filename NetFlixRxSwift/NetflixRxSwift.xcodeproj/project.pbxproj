@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041C735F28B0061C00E495C8 /* RxExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C735E28B0061C00E495C8 /* RxExtension.swift */; };
+		04877D6128AFD7AC0025517B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04877D6028AFD7AC0025517B /* AppDelegate.swift */; };
+		04877D6328AFD7AC0025517B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04877D6228AFD7AC0025517B /* SceneDelegate.swift */; };
+		04877D6A28AFD7B00025517B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04877D6928AFD7B00025517B /* Assets.xcassets */; };
+		04877D6D28AFD7B00025517B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04877D6B28AFD7B00025517B /* LaunchScreen.storyboard */; };
+		04877D8628AFDC520025517B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04877D8428AFDC520025517B /* LoginViewController.swift */; };
+		04877D8728AFDC520025517B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04877D8528AFDC520025517B /* LoginViewController.xib */; };
+		04877D8B28AFDC700025517B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04877D8928AFDC700025517B /* HomeViewController.swift */; };
+		04877D8C28AFDC700025517B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04877D8A28AFDC700025517B /* HomeViewController.xib */; };
+		04877D9028AFDCC40025517B /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04877D8E28AFDCC40025517B /* UpcomingViewController.swift */; };
+		04877D9128AFDCC40025517B /* UpcomingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04877D8F28AFDCC40025517B /* UpcomingViewController.xib */; };
+		04877D9628AFDCE50025517B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04877D9428AFDCE50025517B /* SearchViewController.swift */; };
+		04877D9728AFDCE50025517B /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04877D9528AFDCE50025517B /* SearchViewController.xib */; };
+		04877D9B28AFDCFA0025517B /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04877D9928AFDCFA0025517B /* SearchResultViewController.swift */; };
+		04877D9C28AFDCFA0025517B /* SearchResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04877D9A28AFDCFA0025517B /* SearchResultViewController.xib */; };
+		04877DA028AFDD180025517B /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04877D9E28AFDD180025517B /* DownloadViewController.swift */; };
+		04877DA128AFDD180025517B /* DownloadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04877D9F28AFDD180025517B /* DownloadViewController.xib */; };
+		04877DA428AFDD440025517B /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04877DA328AFDD440025517B /* APICaller.swift */; };
+		04877DA828AFDE1C0025517B /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04877DA728AFDE1C0025517B /* MainTabBarViewController.swift */; };
+		04877DAD28AFE0B30025517B /* ChooseProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04877DAB28AFE0B30025517B /* ChooseProfileViewController.swift */; };
+		04877DAE28AFE0B30025517B /* ChooseProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04877DAC28AFE0B30025517B /* ChooseProfileViewController.xib */; };
+		901F217FDCB7599B85AC9761 /* Pods_NetflixRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BA326A63DF1DDBF384826D /* Pods_NetflixRxSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		041C735E28B0061C00E495C8 /* RxExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxExtension.swift; sourceTree = "<group>"; };
+		04877D5D28AFD7AC0025517B /* NetflixRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04877D6028AFD7AC0025517B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04877D6228AFD7AC0025517B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04877D6928AFD7B00025517B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04877D6C28AFD7B00025517B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04877D6E28AFD7B00025517B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04877D8428AFDC520025517B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04877D8528AFDC520025517B /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		04877D8928AFDC700025517B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04877D8A28AFDC700025517B /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		04877D8E28AFDCC40025517B /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		04877D8F28AFDCC40025517B /* UpcomingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpcomingViewController.xib; sourceTree = "<group>"; };
+		04877D9428AFDCE50025517B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		04877D9528AFDCE50025517B /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		04877D9928AFDCFA0025517B /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		04877D9A28AFDCFA0025517B /* SearchResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultViewController.xib; sourceTree = "<group>"; };
+		04877D9E28AFDD180025517B /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		04877D9F28AFDD180025517B /* DownloadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DownloadViewController.xib; sourceTree = "<group>"; };
+		04877DA328AFDD440025517B /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		04877DA728AFDE1C0025517B /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		04877DAB28AFE0B30025517B /* ChooseProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseProfileViewController.swift; sourceTree = "<group>"; };
+		04877DAC28AFE0B30025517B /* ChooseProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseProfileViewController.xib; sourceTree = "<group>"; };
+		149A8A31B7FF7BCABA484C4A /* Pods-NetflixRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetflixRxSwift.release.xcconfig"; path = "Target Support Files/Pods-NetflixRxSwift/Pods-NetflixRxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		C0340478ADD908ECE5921F49 /* Pods-NetflixRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetflixRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-NetflixRxSwift/Pods-NetflixRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		E8BA326A63DF1DDBF384826D /* Pods_NetflixRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetflixRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04877D5A28AFD7AC0025517B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901F217FDCB7599B85AC9761 /* Pods_NetflixRxSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041C735C28B005F500E495C8 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				041C735E28B0061C00E495C8 /* RxExtension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		04877D5428AFD7AC0025517B = {
+			isa = PBXGroup;
+			children = (
+				04877D5F28AFD7AC0025517B /* NetFlixRxSwift */,
+				04877D5E28AFD7AC0025517B /* Products */,
+				79A3B901F8FE9E9FAB16F74D /* Pods */,
+				563C04AD9A0AF71044AD5D7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04877D5E28AFD7AC0025517B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04877D5D28AFD7AC0025517B /* NetflixRxSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04877D5F28AFD7AC0025517B /* NetFlixRxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				04877DA628AFDDBE0025517B /* Resource */,
+				04877D7D28AFDB9A0025517B /* Manager */,
+				04877D7C28AFDB7F0025517B /* ViewModel */,
+				04877D7B28AFDB690025517B /* Model */,
+				04877D7A28AFDB580025517B /* Controller */,
+				04877D6928AFD7B00025517B /* Assets.xcassets */,
+				04877D6B28AFD7B00025517B /* LaunchScreen.storyboard */,
+				04877D6E28AFD7B00025517B /* Info.plist */,
+			);
+			path = NetFlixRxSwift;
+			sourceTree = "<group>";
+		};
+		04877D7A28AFDB580025517B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04877DA728AFDE1C0025517B /* MainTabBarViewController.swift */,
+				04877D8228AFDC040025517B /* Login */,
+				04877D8128AFDBFC0025517B /* HomeView */,
+				04877D7F28AFDBE00025517B /* UpComing */,
+				04877D8028AFDBEF0025517B /* Search */,
+				04877D7E28AFDBD20025517B /* Download */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04877D7B28AFDB690025517B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04877D7C28AFDB7F0025517B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04877D7D28AFDB9A0025517B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				041C735C28B005F500E495C8 /* extension */,
+				04877DA328AFDD440025517B /* APICaller.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		04877D7E28AFDBD20025517B /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				04877D9E28AFDD180025517B /* DownloadViewController.swift */,
+				04877D9F28AFDD180025517B /* DownloadViewController.xib */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+		04877D7F28AFDBE00025517B /* UpComing */ = {
+			isa = PBXGroup;
+			children = (
+				04877D8E28AFDCC40025517B /* UpcomingViewController.swift */,
+				04877D8F28AFDCC40025517B /* UpcomingViewController.xib */,
+			);
+			path = UpComing;
+			sourceTree = "<group>";
+		};
+		04877D8028AFDBEF0025517B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				04877D9428AFDCE50025517B /* SearchViewController.swift */,
+				04877D9528AFDCE50025517B /* SearchViewController.xib */,
+				04877D9928AFDCFA0025517B /* SearchResultViewController.swift */,
+				04877D9A28AFDCFA0025517B /* SearchResultViewController.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		04877D8128AFDBFC0025517B /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				04877D8928AFDC700025517B /* HomeViewController.swift */,
+				04877D8A28AFDC700025517B /* HomeViewController.xib */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		04877D8228AFDC040025517B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				04877D8328AFDC0F0025517B /* ChooseProfile */,
+				04877D8428AFDC520025517B /* LoginViewController.swift */,
+				04877D8528AFDC520025517B /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		04877D8328AFDC0F0025517B /* ChooseProfile */ = {
+			isa = PBXGroup;
+			children = (
+				04877DAB28AFE0B30025517B /* ChooseProfileViewController.swift */,
+				04877DAC28AFE0B30025517B /* ChooseProfileViewController.xib */,
+			);
+			path = ChooseProfile;
+			sourceTree = "<group>";
+		};
+		04877DA628AFDDBE0025517B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				04877D6028AFD7AC0025517B /* AppDelegate.swift */,
+				04877D6228AFD7AC0025517B /* SceneDelegate.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		563C04AD9A0AF71044AD5D7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8BA326A63DF1DDBF384826D /* Pods_NetflixRxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79A3B901F8FE9E9FAB16F74D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0340478ADD908ECE5921F49 /* Pods-NetflixRxSwift.debug.xcconfig */,
+				149A8A31B7FF7BCABA484C4A /* Pods-NetflixRxSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04877D5C28AFD7AC0025517B /* NetflixRxSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04877D7128AFD7B00025517B /* Build configuration list for PBXNativeTarget "NetflixRxSwift" */;
+			buildPhases = (
+				9791BF1D3866A1ACC009CDA2 /* [CP] Check Pods Manifest.lock */,
+				04877D5928AFD7AC0025517B /* Sources */,
+				04877D5A28AFD7AC0025517B /* Frameworks */,
+				04877D5B28AFD7AC0025517B /* Resources */,
+				5164E365334FCBDF53C7B84D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetflixRxSwift;
+			productName = NetFlixRxSwift;
+			productReference = 04877D5D28AFD7AC0025517B /* NetflixRxSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04877D5528AFD7AC0025517B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					04877D5C28AFD7AC0025517B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 04877D5828AFD7AC0025517B /* Build configuration list for PBXProject "NetflixRxSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04877D5428AFD7AC0025517B;
+			productRefGroup = 04877D5E28AFD7AC0025517B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04877D5C28AFD7AC0025517B /* NetflixRxSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04877D5B28AFD7AC0025517B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04877D6D28AFD7B00025517B /* LaunchScreen.storyboard in Resources */,
+				04877DAE28AFE0B30025517B /* ChooseProfileViewController.xib in Resources */,
+				04877D6A28AFD7B00025517B /* Assets.xcassets in Resources */,
+				04877DA128AFDD180025517B /* DownloadViewController.xib in Resources */,
+				04877D9728AFDCE50025517B /* SearchViewController.xib in Resources */,
+				04877D9128AFDCC40025517B /* UpcomingViewController.xib in Resources */,
+				04877D8728AFDC520025517B /* LoginViewController.xib in Resources */,
+				04877D8C28AFDC700025517B /* HomeViewController.xib in Resources */,
+				04877D9C28AFDCFA0025517B /* SearchResultViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5164E365334FCBDF53C7B84D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetflixRxSwift/Pods-NetflixRxSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetflixRxSwift/Pods-NetflixRxSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetflixRxSwift/Pods-NetflixRxSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9791BF1D3866A1ACC009CDA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetflixRxSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04877D5928AFD7AC0025517B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04877D9628AFDCE50025517B /* SearchViewController.swift in Sources */,
+				04877DAD28AFE0B30025517B /* ChooseProfileViewController.swift in Sources */,
+				04877D9B28AFDCFA0025517B /* SearchResultViewController.swift in Sources */,
+				04877D8628AFDC520025517B /* LoginViewController.swift in Sources */,
+				04877D6128AFD7AC0025517B /* AppDelegate.swift in Sources */,
+				04877DA428AFDD440025517B /* APICaller.swift in Sources */,
+				04877DA828AFDE1C0025517B /* MainTabBarViewController.swift in Sources */,
+				041C735F28B0061C00E495C8 /* RxExtension.swift in Sources */,
+				04877D6328AFD7AC0025517B /* SceneDelegate.swift in Sources */,
+				04877D9028AFDCC40025517B /* UpcomingViewController.swift in Sources */,
+				04877DA028AFDD180025517B /* DownloadViewController.swift in Sources */,
+				04877D8B28AFDC700025517B /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04877D6B28AFD7B00025517B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04877D6C28AFD7B00025517B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04877D6F28AFD7B00025517B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04877D7028AFD7B00025517B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04877D7228AFD7B00025517B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0340478ADD908ECE5921F49 /* Pods-NetflixRxSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL4HTALFYE;
+				INFOPLIST_FILE = NetFlixRxSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = b.NetFlixRxSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04877D7328AFD7B00025517B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 149A8A31B7FF7BCABA484C4A /* Pods-NetflixRxSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL4HTALFYE;
+				INFOPLIST_FILE = NetFlixRxSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = b.NetFlixRxSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04877D5828AFD7AC0025517B /* Build configuration list for PBXProject "NetflixRxSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04877D6F28AFD7B00025517B /* Debug */,
+				04877D7028AFD7B00025517B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04877D7128AFD7B00025517B /* Build configuration list for PBXNativeTarget "NetflixRxSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04877D7228AFD7B00025517B /* Debug */,
+				04877D7328AFD7B00025517B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04877D5528AFD7AC0025517B /* Project object */;
+}
